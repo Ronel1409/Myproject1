@@ -1,0 +1,25 @@
+.navbar-right {
+    align-items: right;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #f45lle;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42857143;
+    letter: spacing 4px;
+    border-radius: 0;
+    position: fixed;
+} 
+.navbar li a, .navbar .navbar-brand {
+    color: #fff;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f45lle;
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff;
+}
